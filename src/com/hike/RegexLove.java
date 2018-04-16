@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
 
 public class RegexLove {
 
-    //Pattern pattern = Pattern.compile(":love:");
-	Pattern pattern = Pattern.compile("%1$s");
+    Pattern pattern = Pattern.compile(":love:");
+	
     BufferedReader br=null;
     
     public void fileValidationforGroup1(String fileName) throws Exception {
