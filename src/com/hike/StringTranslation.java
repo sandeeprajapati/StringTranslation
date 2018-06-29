@@ -12,11 +12,12 @@ public class StringTranslation {
 	public static void main(String[] args) {
 
 		// input1 has only "made with :love: in India"
-		String[] input1 = { "values-de/strings.xml", "values-es/strings.xml", "values-gu/strings.xml" };
+		String[] input1 = { "values-de/strings.xml", "values-bn/strings.xml", "values-hi/strings.xml",
+				"values-ml/strings.xml", "values-mr/strings.xml", "values-es/strings.xml", "values-pt/strings.xml",
+				"values-ta/strings.xml", "values-te/strings.xml", "values-gu/strings.xml" };
 		// input2 have both "made with :love: in India" and Like
-		String[] input2 = { "values/strings.xml", "values-bn/strings.xml", "values-fr/strings.xml",
-				"values-hi/strings.xml", "values-kn/strings.xml", "values-ml/strings.xml", "values-mr/strings.xml",
-				"values-pt/strings.xml", "values-ru/strings.xml", "values-ta/strings.xml", "values-te/strings.xml" };
+		String[] input2 = { "values/strings.xml", "values-fr/strings.xml", "values-kn/strings.xml",
+				"values-ru/strings.xml" };
 
 		String[] input3 = { "values/strings.xml", "values-bn/strings.xml", "values-de/strings.xml",
 				"values-es/strings.xml", "values-fr/strings.xml", "values-gu/strings.xml", "values-hi/strings.xml",
